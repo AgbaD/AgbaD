@@ -7,4 +7,4 @@
 - 💬 Ask me about automation, scripting, software engineering, technical writing, content creation.
 - 📫 How to reach me: [damilareagba1@gmail.com](damilareagba1@gmail.com)
 - 😄 Pronouns: He/Him.
-- ⚡ Fun fact: I am a superhero.
+- ⚡ Fun fact: I have superpowers.
