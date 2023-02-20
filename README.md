@@ -2,6 +2,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi there 👋&height=100&section=header"/>
 </p> -->
 
+<p align="center">
+  <img src= "https://media.giphy.com/media/rYADN3ydd6zLtwCv7q/giphy.gif">
+</p>
+<!-- https://media.giphy.com/media/rYADN3ydd6zLtwCv7q/giphy.gif -->
+<!-- https://media.giphy.com/media/kic65zXQK8Ej84ZZQK/giphy.gif -->
+
 <h1 align="center">
 Damilare Agbabiaka, aka. BlankGodd
 </h1>
