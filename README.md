@@ -1,8 +1,10 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi there 👋&height=100&section=header"/>
-</p>
+</p> -->
 
-# I am Damilare Agbabiaka, aka. BlankGodd
+<h1 align="center">
+Damilare Agbabiaka, aka. BlankGodd
+</h1>
 
 ***
 <h1 align="center">
