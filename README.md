@@ -32,7 +32,7 @@ Damilare Agbabiaka, aka. BlankGodd
 </a>
 </p>
 
-I'm a skilled Backend Engineer with a growing expertise in blockchain technology. Over the past three years, I've built scalable and reliable systems using Typescript, Python, and Go.
+I'm a skilled Backend Engineer with a growing expertise in blockchain technology. Over the past three years, I've built scalable and reliable systems using Javascript, Python, Typescript, and Go.
 
 My recent foray into blockchain technology has given me a strong foundation in the fundamentals of blockchain, including consensus algorithms, cryptography, and distributed systems, and the ability to develop decentralized applications (DApps) and smart contracts using Solidity.
 
@@ -81,7 +81,7 @@ hobbies: ["BasketBall", "Anime", "Travelling", "Music"]
 
 ***
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AgbaD&layout=compact&theme=darcula&hide_border=true&bg_color=00000000 "My Top Languages")
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AgbaD&layout=compact&theme=darcula&langs_count=3&hide_border=true&bg_color=00000000 "My Top Languages")
 
 ***
 [![trophy](https://github-profile-trophy.vercel.app/?username=AgbaD&theme=onedark&margin-w=15&margin-h=15)](https://www.buymeacoffee.com/pantani)
