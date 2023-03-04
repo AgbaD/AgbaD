@@ -18,9 +18,6 @@ Damilare Agbabiaka, aka. BlankGodd
 </h1>
 
 <p align="center">
-<a href="mailto:damilareagba1@gmail.com">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166972883-f5f1d88c-0246-4374-88ac-ded0f2cf0699.png"/>
-</a>
 <a href="https://www.linkedin.com/in/damilare-agbabiaka/">
   <img height="50" src="https://user-images.githubusercontent.com/46517096/166973395-19676cd8-f8ec-4abf-83ff-da8243505b82.png"/>
 </a>
@@ -29,6 +26,9 @@ Damilare Agbabiaka, aka. BlankGodd
 </a>
 <a href="https://twitter.com/agba_dr3">
   <img height="50" src="https://user-images.githubusercontent.com/46517096/166974271-91dfa250-d70b-4cb9-8707-f1bda1b708c3.png"/>
+</a>
+ <a href="mailto:damilareagba1@gmail.com">
+  <img height="50" src="https://user-images.githubusercontent.com/46517096/166972883-f5f1d88c-0246-4374-88ac-ded0f2cf0699.png"/>
 </a>
 </p>
 
@@ -47,17 +47,17 @@ current_role: Software Engineer (BE Heavy)
 education:
   [
     "BSc CyberSecurity; International University of Applied Science, Germany"
-    "BSc Materials Engineering; University of Lagos"
+    "BSc Materials Engineering; University of Lagos, Nigeria"
   ]
 ask_me_about: automation, scripting, software engineering, technical writing, Web3
 interests: 
  [
-    "Backend",
+    "Web2",
     "Web3",
-    "CyberSecurity",
-    "Artificial Inteligence",
-    "AR/VR",
-    "Data"
+    "WebSecurity",
+    "AI",
+    "Data & Security",
+    "IoT"
   ]
 professional_background:
   [
