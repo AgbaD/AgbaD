@@ -1,4 +1,4 @@
-import { AnimatedText, Layout } from '@/components'
+import { AnimatedText, Layout, TransitionEffect } from '@/components'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -33,7 +33,8 @@ const FeaturedArticle = ({ img, title, tags, summary, link }) => {
                 />
             </Link>
             <Link href={link} target={'_blank'}>
-                <h2 className='text-2xl capitalize font-bold my-2 mt-4 hover:underline hover:underline-offset-2'>
+                <h2 className='text-2xl capitalize font-bold my-2 mt-4 hover:underline hover:underline-offset-2
+                xs:text-lg'>
                     {title}
                 </h2>
             </Link>
@@ -67,7 +68,8 @@ const MovingImg = ({ img, title, link }) => {
             <FramerImage style={{ x: x, y: y }}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1, transition: { duration: 0.2 } }}
-                ref={imgRef} src={img} alt={title} className='z-10 w-96 h-auto hidden absolute rounded-lg' />
+                ref={imgRef} src={img} alt={title} className='z-10 w-96 h-auto hidden absolute rounded-lg
+                md:!hidden' />
         </Link>
     )
 }
@@ -75,11 +77,12 @@ const MovingImg = ({ img, title, link }) => {
 const ArticleComp = ({ img, title, tag, link }) => {
     return (
         <motion.li initial={{ y: 200 }} whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
-        viewport={{ once: true }} className='relative w-full p-4 py-6 my-4 rounded-2xl flex items-center justify-between
+        viewport={{ once: true }} className='relative w-full p-4 py-6 my-4 rounded-2xl flex items-center 
         bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4
-        dark:bg-dark dark:text-light dark:border-light'>
+        dark:bg-dark dark:text-light dark:border-light sm:flex-col justify-between'>
             <MovingImg title={title} img={img} link={link} />
-            <span className='text-primary font-semibold pl-4 dark:text-primaryDark'>{tag}</span>
+            <span className='text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start 
+            sm:pl-0 xs:text-sm'>{tag}</span>
         </motion.li>
     )
 }
@@ -91,10 +94,12 @@ const Articles = () => {
                 <title>Damilare Agbabiaka | Articles Page</title>
                 <meta name="description" content="Damilare Agbabiaka Portfolio - My Articles" />
             </Head>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Written Art, Painted Words. 🎨" className='mb-16' />
-                    <ul className='grid grid-cols-2 gap-16'>
+                    <AnimatedText text="Written Art, Painted Words. 🎨" className='mb-16 lg:!text-7xl
+                    sm:!text-6xl sm:mb-8 xs:!text-4xl' />
+                    <ul className='grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16'>
                         <FeaturedArticle
                             title="Exploring Web3, DeFi, NFTs, and DAOs: The Future of Digital Innovation"
                             summary="In this article, we will explore what web3, DeFi, NFTs, and DAOs are, and how they are shaping the future of our digital landscape."
