@@ -27,7 +27,7 @@ Damilare Agbabiaka, aka. BlankGodd
 <a href="https://twitter.com/agba_dr3">
   <img height="50" src="https://user-images.githubusercontent.com/46517096/166974271-91dfa250-d70b-4cb9-8707-f1bda1b708c3.png"/>
 </a>
- <a href="mailto:damilareagba1@gmail.com">
+<a href="mailto:damilareagba1@gmail.com">
   <img height="50" src="https://user-images.githubusercontent.com/46517096/166972883-f5f1d88c-0246-4374-88ac-ded0f2cf0699.png"/>
 </a>
 </p>
