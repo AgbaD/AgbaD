@@ -2,7 +2,7 @@ import { AnimatedText, Layout, TransitionEffect } from '@/components'
 import Head from 'next/head'
 import React from 'react'
 
-import profilePic from '../../public/images/profile/dami-1.JPG'
+import profilePic from '../../public/images/profile/dami-2.jpg'
 import Image from 'next/image'
 
 const About = () => {
