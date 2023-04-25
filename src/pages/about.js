@@ -1,4 +1,4 @@
-import { AnimatedText, Layout, TransitionEffect } from '@/components'
+import { AnimatedText, Experience, Layout, TransitionEffect } from '@/components'
 import Head from 'next/head'
 import React from 'react'
 
@@ -53,6 +53,10 @@ const About = () => {
               50vw'/>
             </div>
 
+          </div>
+
+          <div className=''>
+            <Experience />
           </div>
         </Layout>
       </main>
