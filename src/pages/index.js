@@ -1,7 +1,7 @@
 import { AnimatedText, Layout, LinkArrow, TransitionEffect } from '@/components'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/digital-dev.png';
+import profilePic from '../../public/images/profile/digi-dev.png';
 import Link from 'next/link';
 // import {} from '../../public/images/'
 
