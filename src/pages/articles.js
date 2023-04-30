@@ -44,12 +44,38 @@ const FeaturedArticle = ({ img, title, tags, summary, link }) => {
     )
 }
 
+const MovingImg = ({ img, title, link }) => {
+    const x = useMotionValue(0);
+    const y = useMotionValue(0);
+    const imgRef = useRef(null);
+
+    function handleMouse(event) {
+        imgRef.current.style.display = "inline-block";
+        x.set(event.pageX);
+        y.set(-10);
+    }
+
+    function handleMouseLeave(event) {
+        imgRef.current.style.display = "none";
+        x.set(0);
+        y.set(0)
+    }
+
+    return (
+        <Link href={link} target={'_blank'}
+            onMouseMove={handleMouse} onMouseLeave={handleMouseLeave}>
+            <h2 className='capitalize text-xl font-semibold hover:underline'>{title}</h2>
+        </Link>
+    )
+}
+
 const ArticleComp = ({ img, title, tag, link }) => {
     return (
         <motion.li initial={{ y: 200 }} whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
         viewport={{ once: true }} className='relative w-full p-4 py-6 my-4 rounded-2xl flex items-center 
         bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4
         dark:bg-dark dark:text-light dark:border-light sm:flex-col justify-between'>
+            <MovingImg title={title} img={img} link={link} />
             <span className='text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start 
             sm:pl-0 xs:text-sm'>{tag}</span>
         </motion.li>
