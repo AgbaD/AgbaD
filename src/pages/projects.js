@@ -14,6 +14,7 @@ import pl from '../../public/images/projects/pl.png';
 import tmm from '../../public/images/projects/tmm.png';
 import yebora from '../../public/images/projects/yebora.png';
 import alaajo from '../../public/images/projects/alaajo.png';
+import fame from '../../public/images/projects/fame.png';
 
 
 const FramerImage = motion(Image);
@@ -124,17 +125,17 @@ const Project = () => {
                             <OtherProject
                                 type="Web2 || Backend || Nest.js || Typescript"
                                 title="Alaajo"
-                                link="#"
+                                link="https://alaajo-nu.vercel.app/"
                                 github="#"
                                 img={alaajo} />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
-                                type="Web3 || Fullstack || Moralis || Typescript"
-                                title="Decentralized Exchange"
-                                link="https://blank-dex1-0.vercel.app/"
-                                github="https://github.com/AgbaD/blank_dex_v1"
-                                img={dex} />
+                                type="Web3 || Fullstack || Solidity || React"
+                                title="Send Crypto Universally"
+                                link="https://fame-tx.vercel.app/"
+                                github="https://github.com/AgbaD/FameTx"
+                                img={fame} />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
@@ -147,9 +148,17 @@ const Project = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
+                                type="Web3 || Fullstack || Moralis || Typescript"
+                                title="Decentralized Exchange"
+                                link="https://blank-dex1-0.vercel.app/"
+                                github="https://github.com/AgbaD/blank_dex_v1"
+                                img={dex} />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <OtherProject
                                 type="Web2 || Backend || Nest.js || Typescript"
                                 title="Yebora"
-                                link="#"
+                                link="https://yebora-new.vercel.app/"
                                 github="#"
                                 img={yebora} />
                         </div>
@@ -169,14 +178,14 @@ const Project = () => {
                                 github="#"
                                 img={f2} />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
                                 type="Web2 || Backend || ExpressJs || Javascript"
                                 title="Pocket Lawyers"
                                 link="https://www.pocketlawyers.io"
                                 github="#"
                                 img={pl} />
-                        </div>
+                        </div> */}
                         <div className='col-span-12'>
                             <FeaturedProject
                                 type="Web2 || Fullstack || Python || Javascript"
