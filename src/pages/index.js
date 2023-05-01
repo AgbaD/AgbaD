@@ -27,7 +27,7 @@ export default function Home() {
               <AnimatedText text="Creating Value and Making Impact With Software." className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-4xl' />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                I've built scalable and reliable systems as a skilled backend engineer with growing expertise in blockchain technology.
+                I've built scalable and reliable systems as a skilled software engineer with growing expertise in blockchain technology.
                 Explore my latest projects and articles, showcasing my expertise in software development and technical writing.
               </p>
               <AnimatedText text="DAMILARE AGBABIAKA A." className='!capitalise !text-4xl !text-left
