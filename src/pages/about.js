@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import profilePic from '../../public/images/profile/dami-3.jpg'
+import profilePic from '../../public/images/profile/dami-3.JPG'
 import Image from 'next/image'
 
 const About = () => {
