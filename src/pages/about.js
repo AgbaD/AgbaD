@@ -1,8 +1,9 @@
-import { AnimatedText, Experience, Layout, TransitionEffect } from '@/components'
+import { AnimatedText, Experience, Layout, Skills, TransitionEffect } from '@/components'
 import Head from 'next/head'
 import React from 'react'
+import { motion } from 'framer-motion'
 
-import profilePic from '../../public/images/profile/dami-2.jpg'
+import profilePic from '../../public/images/profile/dami-3.jpg';
 import Image from 'next/image'
 
 const About = () => {
@@ -55,8 +56,12 @@ const About = () => {
 
           </div>
 
-          <div className=''>
+          <div className='experience_container pt-32'>
             <Experience />
+          </div>
+
+          <div className='skill_container pt-32'>
+            <Skills />
           </div>
         </Layout>
       </main>
