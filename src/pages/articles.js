@@ -7,10 +7,6 @@ import { motion, useMotionValue } from 'framer-motion'
 
 import a1 from '../../public/images/articles/a1.jpg';
 import db from '../../public/images/articles/db.webp';
-import graph from '../../public/images/articles/graphNode.webp';
-import nspg from '../../public/images/articles/nspg.webp';
-import flasksql from '../../public/images/articles/flasksql.webp';
-import blue from '../../public/images/articles/blue.webp';
 
 
 const FramerImage = motion(Image);
@@ -44,7 +40,7 @@ const FeaturedArticle = ({ img, title, tags, summary, link }) => {
     )
 }
 
-const ArticleComp = ({ img, title, tag, link }) => {
+const ArticleComp = ({ title, tag, link }) => {
     return (
         <motion.li initial={{ y: 200 }} whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
         viewport={{ once: true }} className='relative w-full p-4 py-6 my-4 rounded-2xl flex items-center 
@@ -92,25 +88,26 @@ const Articles = () => {
                     <ul>
                         <ArticleComp
                             title='Initiating a NestJs app with PostgreSQL using Docker'
-                            img={nspg}
                             tag='#web2 #starter'
                             link='https://dev.to/blankgodd/initiating-a-nestjs-app-with-postgresql-using-docker-4bag'
                         />
                         <ArticleComp
                             title='Working with PostgreSQL and flask_sqlalchemy'
-                            img={flasksql}
                             tag='#orm #postgresql'
                             link="https://dev.to/blankgodd/working-with-postgresql-and-flasksqlalchemy-3c38"
                         />
                         <ArticleComp
+                            title='Building a CMS API with Fauna and FastAPI'
+                            tag='#fauna #fastapi #tutorial'
+                            link="https://dev.to/blankgodd/building-a-cms-api-with-fauna-and-fastapi-3g36"
+                        />
+                        <ArticleComp
                             title='Build a Flask Application with Blueprints'
-                            img={blue}
                             tag='#flask #starter #begineer'
                             link="https://dev.to/blankgodd/creating-a-blueprint-based-flask-app-199h"
                         />
                         <ArticleComp
                             title='A simple introduction to GraphQL with ExpressJs and Docker'
-                            img={graph}
                             tag='#graphql #tutorial #begineer'
                             link="https://dev.to/blankgodd/a-simple-introduction-to-graphql-with-expressjs-and-docker-11ff"
                         />
