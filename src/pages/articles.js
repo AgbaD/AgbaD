@@ -7,10 +7,6 @@ import { motion, useMotionValue } from 'framer-motion'
 
 import a1 from '../../public/images/articles/a1.jpg';
 import db from '../../public/images/articles/db.webp';
-import graph from '../../public/images/articles/graphNode.webp';
-import nspg from '../../public/images/articles/nspg.webp';
-import flasksql from '../../public/images/articles/flasksql.webp';
-import blue from '../../public/images/articles/blue.webp';
 
 
 const FramerImage = motion(Image);
