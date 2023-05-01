@@ -42,7 +42,7 @@ const Experience = () => {
     max-w-full px-10 sm:px-2'> 
       <h3 className='top-44 uppercase tracking-[20px] text-dark dark:text-light text-700 
       text-3xl md:text-2xl md:tracking-[10px] md:top-24'
-      >Experience</h3>
+      >Experience ˃˃˃˃˃</h3>
 
       <div className='mt-20 text-dark dark:text-light w-full flex space-x-5 overflow-x-scroll
       p-10'>

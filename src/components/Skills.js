@@ -26,11 +26,10 @@ const SkillCard = ({
         <div className='group flex cursor-pointer'>
             <FramerImage 
             initial={{
-                x: 200,
                 opacity: 0
             }}
             transition={{ duration: 1 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1 }}
             src={img}
             className='rounded-full b-gray-500 w-32 h-32 lg:h-28 lg:w-28 sm:h-24 sm:w-24 objet-cover
             filter group-hover:grayscale transition duration-300 ease-in-out'/>
