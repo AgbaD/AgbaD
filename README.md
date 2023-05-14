@@ -63,7 +63,7 @@ professional_background:
   [
     "Full-Time - Software Engineer (BE Heavy); Yebox Technologies",
     "Contract - Backend Engineer; Liberty Pay",
-    "Full-Time - Backend Engineering Lead; FirstFounders Inc",
+    "Full-Time - Lead Backend Engineer; FirstFounders Inc",
     "Contract - Technical Writter & Community Manager; CodeSee - OSH",
     "Contract(full-time) - Backend Engineer; PaySync Ltd",
     "Full-Time - Software Engineer; TheMiddleMaan Enterprise",
