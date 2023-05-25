@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { motion, useMotionValue } from 'framer-motion'
 
 import a1 from '../../public/images/articles/a1.jpg';
-import db from '../../public/images/articles/db.webp';
+import cogito from '../../public/images/articles/cogito.webp';
 
 
 const FramerImage = motion(Image);
@@ -77,15 +77,20 @@ const Articles = () => {
                         />
 
                         <FeaturedArticle
-                            title="Connecting to a MySQL database with SQLAlchemy "
-                            summary="Setting up my web app with flask, I was trying to connect to a MySQL database and I encountered a few errors. I'll be listing them here and writing about how I solved them."
-                            tags="#mysql #ORM #sqlalchemy"
-                            link="https://dev.to/blankgodd/connecting-to-a-mysql-database-with-sqlalchemy-lmc"
-                            img={db}
+                            title="Cogito Protocol: Revolutionizing Stablecoins with Sustainable Tracercoins and AI-Backed Stability"
+                            summary="The cryptocurrency market is ever-changing, and as such, stablecoins have become a popular solution to the problem of volatility."
+                            tags="#tracercoins #stablecoins #defi #ai"
+                            link="https://medium.com/@singularitynetambassadors/cogito-protocol-revolutionizing-stablecoins-with-sustainable-tracercoins-and-ai-backed-stability-e3c0d03e7a5c"
+                            img={cogito}
                         />
                     </ul>
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                     <ul>
+                        <ArticleComp
+                            title='Connecting to a MySQL database with SQLAlchemy'
+                            tag='#mysql #ORM #sqlalchemy'
+                            link="https://dev.to/blankgodd/connecting-to-a-mysql-database-with-sqlalchemy-lmc"
+                        />
                         <ArticleComp
                             title='Initiating a NestJs app with PostgreSQL using Docker'
                             tag='#web2 #starter'
