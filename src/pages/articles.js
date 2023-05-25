@@ -69,19 +69,18 @@ const Articles = () => {
                     sm:!text-6xl sm:mb-8 xs:!text-4xl' />
                     <ul className='grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16'>
                         <FeaturedArticle
-                            title="Exploring Web3, DeFi, NFTs, and DAOs: The Future of Digital Innovation"
-                            summary="In this article, we will explore what web3, DeFi, NFTs, and DAOs are, and how they are shaping the future of our digital landscape."
-                            tags="#web3 #defi # begineer #blockchain"
-                            link="https://dev.to/blankgodd/exploring-web3-defi-nfts-and-daos-the-future-of-digital-innovation-4idc"
-                            img={a1}
-                        />
-
-                        <FeaturedArticle
                             title="Cogito Protocol: Revolutionizing Stablecoins with Sustainable Tracercoins and AI-Backed Stability"
                             summary="The cryptocurrency market is ever-changing, and as such, stablecoins have become a popular solution to the problem of volatility."
                             tags="#tracercoins #stablecoins #defi #ai"
                             link="https://medium.com/@singularitynetambassadors/cogito-protocol-revolutionizing-stablecoins-with-sustainable-tracercoins-and-ai-backed-stability-e3c0d03e7a5c"
                             img={cogito}
+                        />
+                        <FeaturedArticle
+                            title="Exploring Web3, DeFi, NFTs, and DAOs: The Future of Digital Innovation"
+                            summary="In this article, we will explore what web3, DeFi, NFTs, and DAOs are, and how they are shaping the future of our digital landscape."
+                            tags="#web3 #defi # begineer #blockchain"
+                            link="https://dev.to/blankgodd/exploring-web3-defi-nfts-and-daos-the-future-of-digital-innovation-4idc"
+                            img={a1}
                         />
                     </ul>
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
