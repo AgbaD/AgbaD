@@ -33,7 +33,7 @@ export default function Home() {
               <AnimatedText text="DAMILARE AGBABIAKA A." className='!capitalise !text-4xl !text-left
               lg:!text-center sm:!text-3xl' />
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href='https://docs.google.com/document/d/11EUPl2fm87NVqlAGIvMViZihqj1eu_0NfIdhBUW3Sqs/edit?usp=sharing'
+                <Link href='https://docs.google.com/document/d/1kraMYn-j6VoySjOiukyztftN9c6Zo2p_exLOnKyPObI/edit?usp=sharing'
                 target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
