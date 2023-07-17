@@ -15,6 +15,7 @@ import tmm from '../../public/images/projects/tmm.png';
 import yebora from '../../public/images/projects/yebora.png';
 import alaajo from '../../public/images/projects/alaajo.png';
 import fame from '../../public/images/projects/fame.png';
+import sportstatix from '../../public/images/projects/sportstatix.png';
 
 
 const FramerImage = motion(Image);
@@ -145,6 +146,15 @@ const Project = () => {
                                 link="https://www.libertypayng.com/"
                                 github="#"
                                 img={lp} />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                type="Web2 || Backend || Nest.js || Typescript"
+                                title="SportStatix"
+                                summary=" ultimate sports management platform dedicated to bringing African sports together."
+                                link="https://www.sportstatix.com/"
+                                github="#"
+                                img={sportstatix} />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
