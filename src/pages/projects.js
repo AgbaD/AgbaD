@@ -126,7 +126,7 @@ const Project = () => {
                             <OtherProject
                                 type="Web2 || Backend || Nest.js || Typescript"
                                 title="Alaajo"
-                                link="https://alaajo-nu.vercel.app/"
+                                link="https://alaajo.com/"
                                 github="#"
                                 img={alaajo} />
                         </div>
@@ -168,7 +168,7 @@ const Project = () => {
                             <OtherProject
                                 type="Web2 || Backend || Nest.js || Typescript"
                                 title="Yebora"
-                                link="https://yebora-new.vercel.app/"
+                                link="https://www.yebora.com/"
                                 github="#"
                                 img={yebora} />
                         </div>
@@ -188,14 +188,14 @@ const Project = () => {
                                 github="#"
                                 img={f2} />
                         </div>
-                        {/* <div className='col-span-6 sm:col-span-12'>
+                        <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
                                 type="Web2 || Backend || ExpressJs || Javascript"
                                 title="Pocket Lawyers"
                                 link="https://www.pocketlawyers.io"
                                 github="#"
                                 img={pl} />
-                        </div> */}
+                        </div>
                         <div className='col-span-12'>
                             <FeaturedProject
                                 type="Web2 || Fullstack || Python || Javascript"
