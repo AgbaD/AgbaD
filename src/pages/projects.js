@@ -10,6 +10,7 @@ import axeon from '../../public/images/projects/axeon.png';
 import dex from '../../public/images/projects/dex.png';
 import lp from '../../public/images/projects/lp.png';
 import f2 from '../../public/images/projects/f2.png';
+import kudibar from '../../public/images/projects/kudibar.png';
 import pl from '../../public/images/projects/pl.png';
 import tmm from '../../public/images/projects/tmm.png';
 import yebora from '../../public/images/projects/yebora.png';
@@ -115,12 +116,12 @@ const Project = () => {
                     sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                type="Web3 || Fullstack || Solidity || React"
-                                title="Decentralized Crowdfunding App"
-                                summary="A blockchain based crowdfunding app."
-                                link="https://crowd-funding-eth.vercel.app/"
-                                github="https://github.com/AgbaD/crowdFunding-eth"
-                                img={crowdfunding} />
+                                type="Web2 || Backend || Django || Python"
+                                title="Liberty Pay App"
+                                summary="Experience and enjoy the best seamless transactions with Libertypay."
+                                link="https://www.libertypayng.com/"
+                                github="#"
+                                img={lp} />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
@@ -132,20 +133,36 @@ const Project = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
+                                type="Web2 || Backend || Nest.js || Typescript"
+                                title="Yebora"
+                                link="https://www.yebora.com/"
+                                github="#"
+                                img={yebora} />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                type="Web3 || Fullstack || Solidity || React"
+                                title="Decentralized Crowdfunding App"
+                                summary="A blockchain based crowdfunding app."
+                                link="https://crowd-funding-eth.vercel.app/"
+                                github="https://github.com/AgbaD/crowdFunding-eth"
+                                img={crowdfunding} />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <OtherProject
                                 type="Web3 || Fullstack || Solidity || React"
                                 title="Send Crypto Universally"
                                 link="https://fame-tx.vercel.app/"
                                 github="https://github.com/AgbaD/FameTx"
                                 img={fame} />
                         </div>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                type="Web2 || Backend || Django || Python"
-                                title="Liberty Pay App"
-                                summary="Experience and enjoy the best seamless transactions with Libertypay."
-                                link="https://www.libertypayng.com/"
-                                github="#"
-                                img={lp} />
+                        <div className='col-span-6 sm:col-span-12'>
+                            <OtherProject
+                                type="Web3 || Fullstack || Moralis || Typescript"
+                                title="Decentralized Exchange"
+                                link="https://blank-dex1-0.vercel.app/"
+                                github="https://github.com/AgbaD/blank_dex_v1"
+                                img={dex} />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
@@ -158,19 +175,11 @@ const Project = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
-                                type="Web3 || Fullstack || Moralis || Typescript"
-                                title="Decentralized Exchange"
-                                link="https://blank-dex1-0.vercel.app/"
-                                github="https://github.com/AgbaD/blank_dex_v1"
-                                img={dex} />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <OtherProject
                                 type="Web2 || Backend || Nest.js || Typescript"
-                                title="Yebora"
-                                link="https://www.yebora.com/"
+                                title="Kudibar"
+                                link="https://kudibar.com/"
                                 github="#"
-                                img={yebora} />
+                                img={kudibar} />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <OtherProject
