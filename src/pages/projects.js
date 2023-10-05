@@ -13,6 +13,8 @@ import f2 from '../../public/images/projects/f2.png';
 import kudibar from '../../public/images/projects/kudibar.png';
 import pl from '../../public/images/projects/pl.png';
 import tmm from '../../public/images/projects/tmm.png';
+import vidor from '../../public/images/projects/vidor.png';
+import papayr from '../../public/images/projects/papayr.png';
 import yebora from '../../public/images/projects/yebora.png';
 import alaajo from '../../public/images/projects/alaajo.png';
 import fame from '../../public/images/projects/fame.png';
@@ -116,9 +118,25 @@ const Project = () => {
                     sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
+                                type="Web2 || Backend || Fiber || Golang"
+                                title="Vidor Inc"
+                                summary="Access credit and manage credit seamlessly with Vidor."
+                                link="https://vidor.io"
+                                github="#"
+                                img={vidor} />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <OtherProject
+                                type="Web2 || Backend || Nest.js || Typescript"
+                                title="Papayr"
+                                link="https://papayr.com/"
+                                github="#"
+                                img={papayr} />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <OtherProject
                                 type="Web2 || Backend || Django || Python"
                                 title="Liberty Pay App"
-                                summary="Experience and enjoy the best seamless transactions with Libertypay."
                                 link="https://www.libertypayng.com/"
                                 github="#"
                                 img={lp} />

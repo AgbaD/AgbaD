@@ -47,7 +47,7 @@ const Experience = () => {
       <div className='mt-20 text-dark dark:text-light w-full flex space-x-5 overflow-x-scroll
       p-10'>
         <ExperienceCard title={'Software Engineer (BE Heavy)'} company={'Yebox Technologies'} 
-        url='https://yebox.io/' startEnd={'Jan 2023 - July 2023'}/>
+        url='https://yebox.io/' startEnd={'Jan 2023 - Present'}/>
         <ExperienceCard title={'Technical Writer || Community Manager (Contract)'} company={'CodeSee - OSH'} 
         url='https://www.codesee.io/' startEnd={'May 2022 - April 2023'}/>
         <ExperienceCard title={'Backend Engineer Lead'} company={'FirstFounders Inc.'} 
