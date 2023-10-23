@@ -46,18 +46,24 @@ const Experience = () => {
 
       <div className='mt-20 text-dark dark:text-light w-full flex space-x-5 overflow-x-scroll
       p-10'>
-        <ExperienceCard title={'Software Engineer (BE Heavy)'} company={'Yebox Technologies'} 
-        url='https://yebox.io/' startEnd={'Jan 2023 - Present'}/>
+        <ExperienceCard title={'Backend Engineer'} company={'Yebox Technologies'} 
+        url='https://yebox.io/' startEnd={'Jan 2023 - Oct 2023'}/>
+
         <ExperienceCard title={'Technical Writer || Community Manager (Contract)'} company={'CodeSee - OSH'} 
-        url='https://www.codesee.io/' startEnd={'May 2022 - April 2023'}/>
-        <ExperienceCard title={'Backend Engineer Lead'} company={'FirstFounders Inc.'} 
-        url='https://firstfounders.cc/' startEnd={'Feb 2022 - March 2023'}/>
-        <ExperienceCard title={'Backend Engineer (Contract)'} company={'Liberty Tech'} 
+        url='https://www.opensourcehub.io/' startEnd={'May 2022 - April 2023'}/>
+
+        <ExperienceCard title={'Back End Engineer Lead'} company={'FirstFounders Inc.'} 
+        url='https://firstfounders.cc/' startEnd={'Feb 2021 - March 2023'}/>
+
+        <ExperienceCard title={'Back End Engineer (Contract)'} company={'Liberty Tech'} 
         url='https://www.libertypayng.com/' startEnd={'September 2022 - March 2023'}/>
-        <ExperienceCard title={'Backend Engineer (Contract)'} company={'PaySync Technologies'} 
-        url='https://opensourcehub.io/' startEnd={'Nov 2021 - May 2022'}/>
-        <ExperienceCard title={'Software Developer'} company={'TheMiddleMaan Enterprise'} 
-        url='http://tmm.surge.sh/' startEnd={'Nov 2020 - Nov 2021'}/>
+
+        <ExperienceCard title={'Back End Engineer'} company={'PaySync Technologies'} 
+        url='https://play.google.com/store/apps/details?id=com.ola.paysync&hl=en&gl=US' startEnd={'Nov 2020 - May 2022'}/>
+
+        <ExperienceCard title={'Fullstack Engineer'} company={'TheMiddleMaan Enterprise'} 
+        url='http://tmm.surge.sh/' startEnd={'Jan 2020 - Nov 2020'}/>
+
         <ExperienceCard title={'Data Science Intern'} company={'Hash Analytics'} 
         url='https://www.crunchbase.com/organization/hash-analytic' startEnd={'Nov 2019 - Jan 2020'}/>
       </div>
