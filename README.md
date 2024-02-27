@@ -1,10 +1,10 @@
 <!-- <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hi there 👋&height=100&section=header"/>
 </p> -->
-
+<!--
 <p align="center">
   <img src= "https://media.giphy.com/media/rYADN3ydd6zLtwCv7q/giphy.gif">
-</p>
+</p> -->
 <!-- https://media.giphy.com/media/rYADN3ydd6zLtwCv7q/giphy.gif -->
 <!-- https://media.giphy.com/media/kic65zXQK8Ej84ZZQK/giphy.gif -->
 
@@ -12,7 +12,8 @@
 Damilare Agbabiaka, aka. BlankGodd
 </h1>
 
-***
+---
+
 <h1 align="center">
   Let's Connect 🤝
 </h1>
@@ -36,7 +37,6 @@ I'm a skilled software engineer with a growing expertise in blockchain technolog
 
 My recent foray into blockchain technology has given me a strong foundation in the fundamentals of blockchain, including consensus algorithms, cryptography, and distributed systems, and the ability to develop decentralized applications (DApps) and smart contracts using Solidity.
 
-
 <h2> 👨🏻‍💻 A Bit About Me </h2>
 
 ```yaml
@@ -50,39 +50,43 @@ education:
     "BSc Materials Engineering; University of Lagos, Nigeria"
   ]
 ask_me_about: automation, scripting, software engineering, technical writing, Web3
-interests: 
+interests:
  [
-    "Web2",
-    "Web3",
+    "Web (2 && 3 && more)",
     "WebSecurity",
+    "Networking",
     "AI",
-    "Data & Security",
     "IoT"
   ]
 professional_background:
   [
-    "Full-Time - Software Engineer (BE Heavy); Yebox Technologies",
+    "Full-Time - Fullstack Engineer + Team Lead; Papayr Ltd"
+    "Full-Time - Backend Engineer; Yebox Technologies",
     "Contract - Backend Engineer; Liberty Pay",
-    "Full-Time - Lead Backend Engineer; FirstFounders Inc",
+    "Full-Time - Fullstack Engineer + Team Lead; FirstFounders Inc",
     "Contract - Technical Writter & Community Manager; CodeSee - OSH",
-    "Contract(full-time) - Backend Engineer; PaySync Ltd",
-    "Full-Time - Software Engineer; TheMiddleMaan Enterprise",
+    "Full-Time - Fullstack Engineer; PaySync Ltd",
+    "Full-Time - Fullstack Engineer; TheMiddleMaan Enterprise",
   ]
-  
-currently_learning: ["Blockchain, System Design, and DeFi"]
+
+currently_learning: ["Blockchain, DeFi, and Web3"]
 hobbies: ["BasketBall", "Anime", "Travelling", "Music"]
 ```
 
-***
+---
+
 !["My Github Streaks"](https://github-readme-streak-stats.herokuapp.com?user=AgbaD&theme=darcula&hide_border=true&background=FFFFFF00 "My Github Streaks")
 
-***
+---
+
 !["My Github Stats"](https://github-readme-stats.vercel.app/api?username=AgbaD&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000 "My Github Stats")
 
-***
+---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AgbaD&layout=compact&theme=darcula&langs_count=3&hide_border=true&bg_color=00000000 "My Top Languages")
 
-***
+---
+
 [![trophy](https://github-profile-trophy.vercel.app/?username=AgbaD&theme=onedark&margin-w=15&margin-h=15)](https://www.buymeacoffee.com/pantani)
-***
+
+---
