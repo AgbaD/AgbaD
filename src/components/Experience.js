@@ -65,7 +65,7 @@ const Experience = () => {
         url='https://play.google.com/store/apps/details?id=com.ola.paysync&hl=en&gl=US' startEnd={'2020 - 2022'}/>
 
         <ExperienceCard title={'Fullstack Engineer'} company={'TheMiddleMaan Enterprise'} 
-        url='http://tmm.surge.sh/' startEnd={'Jan - Nov 2020'}/>
+        url='http://tmm.surge.sh/' startEnd={'2020'}/>
 
         <ExperienceCard title={'Data Science Intern'} company={'Hash Analytics'} 
         url='https://www.crunchbase.com/organization/hash-analytic' startEnd={'2019 - 2020'}/>
