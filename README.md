@@ -60,11 +60,11 @@ interests:
   ]
 professional_background:
   [
-    "Full-Time - Fullstack Engineer + Team Lead; Papayr Ltd"
+    "Full-Time - Fullstack Engineer + Team Lead; Papayr Ltd",
+    "Contract - Software Engineer & Technical Writer; CodeSee - OSH",
     "Full-Time - Backend Engineer; Yebox Technologies",
     "Contract - Backend Engineer; Liberty Pay",
-    "Full-Time - Fullstack Engineer + Team Lead; FirstFounders Inc",
-    "Contract - Technical Writter & Community Manager; CodeSee - OSH",
+    "Full-Time - Backend Engineer + Team Lead; FirstFounders Inc",
     "Full-Time - Fullstack Engineer; PaySync Ltd",
     "Full-Time - Fullstack Engineer; TheMiddleMaan Enterprise",
   ]

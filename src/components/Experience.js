@@ -49,16 +49,16 @@ const Experience = () => {
         <ExperienceCard title={'Fullstack Engineer & Team Lead'} company={'Papayr Limited'} 
         url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2023 - Present'}/>
 
-        <ExperienceCard title={'Backend Engineer'} company={'Yebox Technologies'} 
-        url='https://yebox.io/' startEnd={'2022 - 2023'}/>
-
         <ExperienceCard title={'Software Engineer & Technical Writer (Contract)'} company={'CodeSee - OSH'} 
         url='https://www.opensourcehub.io/' startEnd={'2022 - 2023'}/>
 
-        <ExperienceCard title={'Back End Engineer (Contract)'} company={'Liberty Tech'} 
+        <ExperienceCard title={'Backend Engineer'} company={'Yebox Technologies'} 
+        url='https://yebox.io/' startEnd={'2022 - 2023'}/>
+
+        <ExperienceCard title={'Backend Engineer (Contract)'} company={'Liberty Tech'} 
         url='https://www.libertypayng.com/' startEnd={'2022 - 2023'}/>
 
-        <ExperienceCard title={'Back End Engineer & Team Lead'} company={'FirstFounders Inc.'} 
+        <ExperienceCard title={'Backend Engineer & Team Lead'} company={'FirstFounders Inc.'} 
         url='https://firstfounders.cc/' startEnd={'2021 - 2023'}/>
 
         <ExperienceCard title={'Fullstack Engineer'} company={'PaySync Technologies'} 
