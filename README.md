@@ -43,11 +43,11 @@ My recent foray into blockchain technology has given me a strong foundation in t
 name: Damilare Agbabiaka
 aka: BlankGodd
 current_location: Lagos, Nigeria
-current_role: Software Engineer (BE Heavy)
+current_role: Fullstack Software Engineer
 education:
   [
     "BSc CyberSecurity; International University of Applied Science, Germany"
-    "BSc Materials Engineering; University of Lagos, Nigeria"
+    "BSc Computer Science; University of Lagos, Nigeria"
   ]
 ask_me_about: automation, scripting, software engineering, technical writing, Web3
 interests:
@@ -55,8 +55,8 @@ interests:
     "Web (2 && 3 && more)",
     "WebSecurity",
     "Networking",
-    "AI",
-    "IoT"
+    "DeFi",
+    "Quant Trading"
   ]
 professional_background:
   [
@@ -69,7 +69,7 @@ professional_background:
     "Full-Time - Fullstack Engineer; TheMiddleMaan Enterprise",
   ]
 
-currently_learning: ["Blockchain, DeFi, and Web3"]
+currently_learning: ["Blockchain & Web3, Quant"]
 hobbies: ["BasketBall", "Anime", "Travelling", "Music"]
 ```
 
