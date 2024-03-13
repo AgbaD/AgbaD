@@ -46,26 +46,26 @@ const Experience = () => {
 
       <div className='mt-20 text-dark dark:text-light w-full flex space-x-5 overflow-x-scroll
       p-10'>
-        <ExperienceCard title={'Fullstack Engineer + Team Lead'} company={'Papayr Limited'} 
-        url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2022 - Present'}/>
+        <ExperienceCard title={'Fullstack Engineer & Team Lead'} company={'Papayr Limited'} 
+        url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2023 - Present'}/>
 
         <ExperienceCard title={'Backend Engineer'} company={'Yebox Technologies'} 
         url='https://yebox.io/' startEnd={'2022 - 2023'}/>
 
-        <ExperienceCard title={'Technical Writer || Community Manager (Contract)'} company={'CodeSee - OSH'} 
+        <ExperienceCard title={'Software Engineer & Technical Writer (Contract)'} company={'CodeSee - OSH'} 
         url='https://www.opensourcehub.io/' startEnd={'2022 - 2023'}/>
 
         <ExperienceCard title={'Back End Engineer (Contract)'} company={'Liberty Tech'} 
         url='https://www.libertypayng.com/' startEnd={'2022 - 2023'}/>
 
-        <ExperienceCard title={'Back End Engineer + Team Lead'} company={'FirstFounders Inc.'} 
+        <ExperienceCard title={'Back End Engineer & Team Lead'} company={'FirstFounders Inc.'} 
         url='https://firstfounders.cc/' startEnd={'2021 - 2023'}/>
 
         <ExperienceCard title={'Fullstack Engineer'} company={'PaySync Technologies'} 
         url='https://play.google.com/store/apps/details?id=com.ola.paysync&hl=en&gl=US' startEnd={'2020 - 2022'}/>
 
         <ExperienceCard title={'Fullstack Engineer'} company={'TheMiddleMaan Enterprise'} 
-        url='http://tmm.surge.sh/' startEnd={'2020 - 2021'}/>
+        url='http://tmm.surge.sh/' startEnd={'2020'}/>
 
         <ExperienceCard title={'Data Science Intern'} company={'Hash Analytics'} 
         url='https://www.crunchbase.com/organization/hash-analytic' startEnd={'2019 - 2020'}/>
