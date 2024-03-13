@@ -50,7 +50,7 @@ const Experience = () => {
         url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2023 - Present'}/>
 
         <ExperienceCard title={'Software Engineer & Technical Writer (Contract)'} company={'CodeSee - OSH'} 
-        url='https://www.opensourcehub.io/' startEnd={'2022 - 2023'}/>
+        url='https://www.codesee.io/' startEnd={'2022 - 2023'}/>
 
         <ExperienceCard title={'Backend Engineer'} company={'Yebox Technologies'} 
         url='https://yebox.io/' startEnd={'2022 - 2023'}/>
