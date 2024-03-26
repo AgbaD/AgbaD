@@ -91,6 +91,11 @@ const Articles = () => {
                             link="https://dev.to/blankgodd/connecting-to-a-mysql-database-with-sqlalchemy-lmc"
                         />
                         <ArticleComp
+                            title='Console By Codesee'
+                            tag='#opensource #software #newsletter #publications'
+                            link="https://console.substack.com/"
+                        />
+                        <ArticleComp
                             title='Initiating a NestJs app with PostgreSQL using Docker'
                             tag='#web2 #starter'
                             link='https://dev.to/blankgodd/initiating-a-nestjs-app-with-postgresql-using-docker-4bag'
