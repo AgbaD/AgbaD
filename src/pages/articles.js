@@ -86,14 +86,14 @@ const Articles = () => {
                     <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Articles</h2>
                     <ul>
                         <ArticleComp
-                            title='Connecting to a MySQL database with SQLAlchemy'
-                            tag='#mysql #ORM #sqlalchemy'
-                            link="https://dev.to/blankgodd/connecting-to-a-mysql-database-with-sqlalchemy-lmc"
-                        />
-                        <ArticleComp
                             title='Console By Codesee'
                             tag='#opensource #software #newsletter #publications'
                             link="https://console.substack.com/"
+                        />
+                        <ArticleComp
+                            title='Connecting to a MySQL database with SQLAlchemy'
+                            tag='#mysql #ORM #sqlalchemy'
+                            link="https://dev.to/blankgodd/connecting-to-a-mysql-database-with-sqlalchemy-lmc"
                         />
                         <ArticleComp
                             title='Initiating a NestJs app with PostgreSQL using Docker'
