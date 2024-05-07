@@ -70,7 +70,7 @@ professional_background:
   ]
 
 currently_learning: ["Blockchain & Web3, Quant"]
-hobbies: ["BasketBall", "Anime", "Travelling", "Music"]
+hobbies: ["Music", "BasketBall", "Anime", "Travelling"]
 ```
 
 ---
