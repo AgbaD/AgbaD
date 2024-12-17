@@ -43,7 +43,7 @@ My recent foray into blockchain technology has given me a strong foundation in t
 name: Damilare Agbabiaka
 aka: BlankGodd
 current_location: Lagos, Nigeria
-current_role: Fullstack Software Engineer
+current_role: Lead Solutions Architect
 education:
   [
     "BSc CyberSecurity; International University of Applied Science, Germany"
@@ -52,14 +52,15 @@ education:
 ask_me_about: automation, scripting, software engineering, technical writing, Web3
 interests:
  [
-    "Web (2 && 3 && more)",
-    "WebSecurity",
-    "Networking",
-    "DeFi",
-    "Quant Trading"
+    "Web & Blockchain",
+    "Data & Artificial Inteligence",
+    "Networking & Cybersecurity",
+    "Quant Trading",
+    "Mathematics & Statistics"
   ]
 professional_background:
   [
+    "Full-Time - Backend Engineer & Lead Solutions Archotect; Ankur Global Solutions"
     "Full-Time - Fullstack Engineer + Team Lead; Papayr Ltd",
     "Contract - Software Engineer & Technical Writer; CodeSee - OSH",
     "Full-Time - Backend Engineer; Yebox Technologies",
@@ -69,7 +70,7 @@ professional_background:
     "Full-Time - Fullstack Engineer; TheMiddleMaan Enterprise",
   ]
 
-currently_learning: ["Blockchain & Web3, Quant"]
+currently_learning: ["Blockchain, Quant"]
 hobbies: ["Music", "BasketBall", "Anime", "Travelling"]
 ```
 
