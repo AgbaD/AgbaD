@@ -24,10 +24,10 @@ const About = () => {
               <h2 className='my-4 text-lg font-bold uppercase text-dark/95 dark:text-light'>About Me</h2>
               <p className='font-medium '>
                 I'm a skilled Software Engineer with a growing expertise in blockchain technology.
-                Over the past four years, I've built scalable and reliable systems using JavaScript,
-                Python, Typescript, and Go, and gained experience with various frameworks and technologies,
-                including NestJs, ExpressJs, Flask, Gin, Fiber, Django, ReactJs, NextJs, Jira, Docker, as well as working with
-                cloud platforms like AWS and Digital Ocean.
+                Over the past five years, I've built scalable and reliable systems using JavaScript,
+                Python, Typescript, PHP, Java, and Go, and gained experience with various frameworks and technologies,
+                including NestJs, ExpressJs, Flask, FastAPI, Gin, Fiber, Laravel, Django, Spring Boot, ReactJs, NextJs, 
+                Jira, Docker, as well as working with cloud platforms like AWS, Microsoft Azure, and Digital Ocean.
               </p>
               <p className='font-medium my-6'>
                 My recent foray into blockchain technology has given me a strong foundation in the
