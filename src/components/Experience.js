@@ -46,8 +46,11 @@ const Experience = () => {
 
       <div className='mt-20 text-dark dark:text-light w-full flex space-x-5 overflow-x-scroll
       p-10'>
+        <ExperienceCard title={'Software Engineer & Solutions Architect'} company={'Ankur Global Solutions'} 
+        url='https://ankursolutions.com/' startEnd={'2023 - Present'}/>
+
         <ExperienceCard title={'Fullstack Engineer & Team Lead'} company={'Papayr Limited'} 
-        url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2023 - Present'}/>
+        url='https://find-and-update.company-information.service.gov.uk/company/14012451' startEnd={'2023 - 2024'}/>
 
         <ExperienceCard title={'Software Engineer & Technical Writer (Contract)'} company={'CodeSee - OSH'} 
         url='https://www.codesee.io/' startEnd={'2022 - 2023'}/>
@@ -65,7 +68,7 @@ const Experience = () => {
         url='https://play.google.com/store/apps/details?id=com.ola.paysync&hl=en&gl=US' startEnd={'2020 - 2022'}/>
 
         <ExperienceCard title={'Fullstack Engineer'} company={'TheMiddleMaan Enterprise'} 
-        url='http://tmm.surge.sh/' startEnd={'2020'}/>
+        url='http://tmm.surge.sh/' startEnd={'2020 - 2021'}/>
 
         <ExperienceCard title={'Data Science Intern'} company={'Hash Analytics'} 
         url='https://www.crunchbase.com/organization/hash-analytic' startEnd={'2019 - 2020'}/>
