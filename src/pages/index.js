@@ -5,7 +5,7 @@ import {
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/digi-dev.png';
-import mainPic from '../../public/images/profile/dami-2.JPG';
+import mainPic from '../../public/images/profile/dami.jpg';
 import Link from 'next/link';
 import { motion } from 'framer-motion'
 
