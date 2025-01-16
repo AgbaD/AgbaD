@@ -68,9 +68,9 @@ const Navbar = () => {
             <div className='w-full flex justify-between items-center lg:hidden'>
                 <nav>
                     <CustomLink href="/" title='Home' className='mr-4' />
-                    <CustomLink href="#" title='Blog' className='mr-4' />
-                    <CustomLink href="#" title='Research' className='mr-4' />
-                    <CustomLink href="#" title='Art' />
+                    <CustomLink href="" title='Blog' className='mr-4' />
+                    <CustomLink href="" title='Research' className='mr-4' />
+                    <CustomLink href="" title='Art' />
                 </nav>
 
                 <nav className='flex items-center justify-center flex-wrap'>
@@ -126,9 +126,9 @@ const Navbar = () => {
                 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md'>
                     <nav className='flex items-center flex-col justify-center'>
                         <CustomMobileLink href="/" title='Home' className='' toggle={handleClick}/>
-                        <CustomMobileLink href="#" title='Blog' className='' toggle={handleClick}/>
-                        <CustomMobileLink href="#" title='Research' className='' toggle={handleClick}/>
-                        <CustomMobileLink href="#" title='Art' className='' toggle={handleClick}/>
+                        <CustomMobileLink href="" title='Blog' className='' toggle={handleClick}/>
+                        <CustomMobileLink href="" title='Research' className='' toggle={handleClick}/>
+                        <CustomMobileLink href="" title='Art' className='' toggle={handleClick}/>
                     </nav>
 
                     <nav className='flex items-center justify-center flex-wrap  mt-2'>
