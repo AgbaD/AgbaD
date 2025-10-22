@@ -33,7 +33,7 @@ Damilare Agbabiaka, aka. BlankGodd
 </a>
 </p>
 
-I'm a skilled software engineer with a growing expertise in blockchain technology. Over the past three years, I've built scalable and reliable systems using Javascript, Python, Typescript, and Go.
+I'm a skilled software engineer with a growing expertise in blockchain technology. Over the past five years, I've built scalable and reliable systems using Javascript, Python, Typescript, and Go.
 
 My recent foray into blockchain technology has given me a strong foundation in the fundamentals of blockchain, including consensus algorithms, cryptography, and distributed systems, and the ability to develop decentralized applications (DApps) and smart contracts using Solidity.
 
