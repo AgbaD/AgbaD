@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }) {
       <main className={`${relaway.variable} font-rela bg-light dark:bg-dark w-full min-h-screen`}>
         <Navbar />
         <AnimatePresence mode='wait'>
-          <Component key={router.asPath} {...pageProps} />
+          <Component key={router.pathname} {...pageProps} />
         </AnimatePresence>
         <HireMe />
         <Footer />

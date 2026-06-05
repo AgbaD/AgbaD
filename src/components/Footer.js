@@ -11,8 +11,8 @@ const Footer = () => {
         <div className='flex items-center lg:pt-2'>
           Built With <span className='text-primary dark:text-primaryDark text-2xl px-1'>&hearts;</span>
           by&nbsp;<Link href='/'
-            className='underline underline-offset-2' target={"_blank"}
-          >Me (BlankGodd)</Link>
+            className='underline underline-offset-2'
+          >Damilare Agbabiaka</Link>
         </div>
       </Layout>
     </footer>
