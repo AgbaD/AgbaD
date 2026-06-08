@@ -14,6 +14,7 @@ import lp from '../../public/images/projects/lp.png';
 import kinnect from '../../public/images/projects/kinnect.png'
 import precision from '../../public/images/projects/precision.png'
 import aiderapp from '../../public/images/projects/aiderapp.png'
+import eptw from '../../public/images/projects/eptw.png'
 import ankurbot from '../../public/images/projects/ankurbot.png';
 import erp from '../../public/images/projects/erp.png';
 import learnvault from '../../public/images/projects/learnvault.png';
@@ -343,6 +344,15 @@ export default function Home() {
                       github="#"
                       summary="Budgeting, requisition, expense tracking, and seamless transactions with cashback — built on a scalable Python/TypeScript backend."
                       img={lp} />
+              </div>
+              <div className='col-span-12'>
+                  <FeaturedProject
+                      tags={["NestJS", "React", "Enterprise"]}
+                      title="EPTW"
+                      summary="Electronic Permit to Work System — a digital platform for managing, approving, and auditing work permits across industrial and enterprise operations."
+                      link="https://eptw.oandoplc.com/login"
+                      github="#"
+                      img={eptw} />
               </div>
               <div className='col-span-6 sm:col-span-12'>
                   <OtherProject
