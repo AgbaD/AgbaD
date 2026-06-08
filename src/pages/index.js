@@ -12,11 +12,12 @@ import { motion } from 'framer-motion'
 
 import lp from '../../public/images/projects/lp.png';
 import kinnect from '../../public/images/projects/kinnect.png'
-import docutrove from '../../public/images/projects/docutrove.png'
 import precision from '../../public/images/projects/precision.png'
 import aiderapp from '../../public/images/projects/aiderapp.png'
-import yebora from '../../public/images/projects/yebora.png';
-import sportstatix from '../../public/images/projects/sportstatix.png';
+import ankurbot from '../../public/images/projects/ankurbot.png';
+import erp from '../../public/images/projects/erp.png';
+import learnvault from '../../public/images/projects/learnvault.png';
+import switchop from '../../public/images/projects/switchop.png';
 import codesee from '../../public/images/articles/codesee.png';
 
 
@@ -289,23 +290,41 @@ export default function Home() {
           sm:!text-6xl sm:mb-8 xs:!text-4xl'/>
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24
           sm:gap-x-0' id='projects'>
-              {/* <div className='col-span-12'>
+              <div className='col-span-12'>
                   <FeaturedProject
-                      type="Web2 || Backend || Fiber || Golang"
-                      title="Vidor Inc"
-                      summary="Access credit and manage credit seamlessly with Vidor."
-                      link="https://vidor.io"
+                      tags={["NestJS", "React", "LMS"]}
+                      title="LearnVault"
+                      summary="Gives organizations one place to train staff, measure learning outcomes, and scale development as teams grow."
+                      link="https://mylearnvault.com"
                       github="#"
-                      img={vidor} />
-              </div> */}
+                      img={learnvault} />
+              </div>
               <div className='col-span-6 sm:col-span-12'>
                   <OtherProject
-                      tags={["Golang", "TypeScript", "Legal Tech"]}
-                      title="Docutrove"
-                      link="https://docutrove.co/"
+                      tags={["Python", "FastAPI", "AI"]}
+                      title="AnkurBot"
+                      link="https://ankurbot.com"
                       github="#"
-                      summary="Easy-to-customise legal documents, quick business registration and access to experienced lawyers — all in one platform."
-                      img={docutrove} />
+                      summary="Helps teams automate support, answer customer questions instantly, capture leads, and reduce repetitive workload using your own business content."
+                      img={ankurbot} />
+              </div>
+              <div className='col-span-6 sm:col-span-12'>
+                  <OtherProject
+                      tags={["NestJS", "React", "ERP"]}
+                      title="ERP"
+                      link="https://dev-erp.ankursolutions.com/"
+                      github="#"
+                      summary="Modular ERP platform built to centralize workforce management, finance, and operations within a secure, scalable architecture."
+                      img={erp} />
+              </div>
+              <div className='col-span-12'>
+                  <FeaturedProject
+                      tags={[".NET", "React", "Infrastructure"]}
+                      title="SwitchOp"
+                      summary="Sits between your platform and every third-party provider, detecting failures and rerouting traffic before your users ever notice. One layer of intelligence. Zero downtime to defend."
+                      link="https://switchop-dev-landing.ankursolutions.com/"
+                      github="#"
+                      img={switchop} />
               </div>
               <div className='col-span-6 sm:col-span-12'>
                   <OtherProject
@@ -324,24 +343,6 @@ export default function Home() {
                       github="#"
                       summary="Budgeting, requisition, expense tracking, and seamless transactions with cashback — built on a scalable Python/TypeScript backend."
                       img={lp} />
-              </div>
-              <div className='col-span-6 sm:col-span-12'>
-                  <OtherProject
-                      tags={["TypeScript", "Node.js", "Crowdfunding"]}
-                      title="Yebora"
-                      link="https://www.yebora.com/"
-                      github="#"
-                      summary="Transparent crowdfunding platform empowering communities to support the causes that matter to them."
-                      img={yebora} />
-              </div>
-              <div className='col-span-12'>
-                  <FeaturedProject
-                      tags={["TypeScript", "Node.js", "Sports Tech"]}
-                      title="SportStatix"
-                      summary="Ultimate sports management platform dedicated to bringing African sports together — scores, fixtures, teams, and more."
-                      link="https://www.sportstatix.com/"
-                      github="#"
-                      img={sportstatix} />
               </div>
               <div className='col-span-6 sm:col-span-12'>
                   <OtherProject
