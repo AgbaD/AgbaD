@@ -67,18 +67,18 @@ hobbies:            [Music, Basketball, Anime, Travelling]
 
 ---
 
-!["My Github Streaks"](https://github-readme-streak-stats.herokuapp.com?user=AgbaD&theme=darcula&hide_border=true&background=FFFFFF00 "My Github Streaks")
+[![GitHub Streak](https://streak-stats.demolab.com?user=AgbaD&theme=darcula&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
-!["My Github Stats"](https://github-readme-stats.vercel.app/api?username=AgbaD&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000 "My Github Stats")
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AgbaD&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs)
 
 ---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AgbaD&layout=compact&theme=darcula&langs_count=6&hide_border=true&bg_color=00000000 "My Top Languages")
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AgbaD&layout=compact&theme=darcula&langs_count=6&hide_border=true)
 
 ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=AgbaD&theme=onedark&margin-w=15&margin-h=15)](https://github.com/AgbaD)
+[![trophy](https://github-profile-trophy.vercel.app/?username=AgbaD&theme=onedark&margin-w=15&margin-h=15&no-frame=true)](https://github.com/AgbaD)
 
 ---
