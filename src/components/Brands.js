@@ -8,7 +8,7 @@ import precision from '../../public/images/brands/precision.svg';
 import vidor from '../../public/images/brands/vidor.svg';
 import zira from '../../public/images/brands/zira.svg';
 
-const FramerImage = motion(Image);
+const FramerImage = motion.create(Image);
 
 const BrandCard = ({
     img

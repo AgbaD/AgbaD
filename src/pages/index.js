@@ -22,7 +22,7 @@ import switchop from '../../public/images/projects/switchop.png';
 import codesee from '../../public/images/articles/codesee.png';
 
 
-const FramerImage = motion(Image);
+const FramerImage = motion.create(Image);
 
 const TechBadge = ({ label }) => (
     <span className='px-2.5 py-0.5 text-xs font-semibold rounded-md
