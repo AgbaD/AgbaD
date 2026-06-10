@@ -15,6 +15,8 @@ import kinnect from '../../public/images/projects/kinnect.png'
 import precision from '../../public/images/projects/precision.png'
 import aiderapp from '../../public/images/projects/aiderapp.png'
 import eptw from '../../public/images/projects/eptw.png'
+import directstay from '../../public/images/projects/directstay.png'
+import tour from '../../public/images/projects/tour.png'
 import ankurbot from '../../public/images/projects/ankurbot.png';
 import erp from '../../public/images/projects/erp.png';
 import learnvault from '../../public/images/projects/learnvault.png';
@@ -362,6 +364,24 @@ export default function Home() {
                       github="#"
                       summary="Identity verification using official records and third-party integrations for seamless, secure KYC authentication."
                       img={precision} />
+              </div>
+              <div className='col-span-6 sm:col-span-12'>
+                  <OtherProject
+                      tags={["TypeScript", "NestJS", "Travel"]}
+                      title="DirectStay"
+                      link="https://directstaynow.com/"
+                      github="#"
+                      summary="Discover unique stays and unforgettable accommodations worldwide with DirectStay."
+                      img={directstay} />
+              </div>
+              <div className='col-span-6 sm:col-span-12'>
+                  <OtherProject
+                      tags={["TypeScript", "NestJS", "Travel"]}
+                      title="Tour Africa"
+                      link="https://dev.thetourafrica.com/"
+                      github="#"
+                      summary="Discovering doesn't have to be a chore — explore curated African travel experiences in one place."
+                      img={tour} />
               </div>
               <div className='col-span-6 sm:col-span-12'>
                   <OtherProject
